@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cream-50: #fefdfb;
+  --color-cream-100: #fdf8f0;
+  --color-cream-200: #f9edd9;
+  --color-cream-300: #f3dfc0;
+  --color-cream-400: #e8c994;
+  --color-cream-500: #d4a960;
+
+  --color-teal-50: #f0f7f6;
+  --color-teal-100: #d9edeb;
+  --color-teal-200: #b3dbd6;
+  --color-teal-300: #80c4bc;
+  --color-teal-400: #5aada3;
+  --color-teal-500: #3d8f85;
+  --color-teal-600: #2e6f67;
+  --color-teal-700: #245751;
+
+  --color-walnut-50: #faf6f2;
+  --color-walnut-100: #f0e6d9;
+  --color-walnut-200: #ddc8ad;
+  --color-walnut-300: #c4a27a;
+  --color-walnut-400: #a87d52;
+  --color-walnut-500: #8b6340;
+  --color-walnut-600: #6b4c31;
+  --color-walnut-700: #4e3724;
+
+  --color-heat-high: #c45d4a;
+  --color-heat-med: #d4a960;
+  --color-heat-low: #5aada3;
+
+  --font-serif: 'DM Serif Display', Georgia, serif;
+  --font-sans: 'Inter', system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background-color: var(--color-cream-50);
+  color: var(--color-walnut-700);
+  min-height: 100vh;
+}
+
+.focus-mode .dim {
+  opacity: 0.35;
+  filter: grayscale(0.3);
+  transition: opacity 0.6s ease, filter 0.6s ease;
+}
