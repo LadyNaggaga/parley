@@ -14,7 +14,8 @@
 
 - **Node.js** 18+ and **npm** 9+
 - A modern browser (Chrome, Firefox, Safari, Edge)
-- *(Optional)* The `parley` CLI and a running [OpenClaw](https://github.com/openclaw) local agent for live message processing
+-  Optional The `parley` CLI and
+-  A running [OpenClaw](https://github.com/openclaw) local agent for live message processing
 
 ### Installation
 
@@ -32,7 +33,7 @@ npm run dev
 
 Open the URL shown in your terminal (typically `http://localhost:5173`).
 
-### Building for Production
+### Building for Production - LOCAL RECOMMENDED FOR NOW 
 
 ```bash
 npm run build
